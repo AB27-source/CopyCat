@@ -1,0 +1,117 @@
+body{
+    background-color: white;
+}
+
+
+.login{
+    color: gray;
+    float: right;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.borderUnderNav{
+    background-color: #212529;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    height: 60px;
+}
+
+.borderUnderNavUnder{
+    background-color: #212529;
+    height: 200px;  
+}
+
+.test{
+    float: left;
+}
+
+.fontSize{
+    font-family: 'Guardian Text Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.search-click {
+    border: 1px solid #ccc;
+    outline: none;
+    background-size: 22px;
+    background-position: 13px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 25px;
+    transition: all 0.5s;
+  }
+  .search-click:focus {
+    width: 300px;
+    padding-left: 50px;
+  }
+  .search-click {
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+  }
+  .search-click input {
+    background: transparent;
+    border: 1px solid #ccc;
+    outline: none;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 0%;
+    padding: 10px;
+  }
+
+  .navbar-nav > li{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /* .navbar .dropdown-menu{
+      background-color: #414347;
+  }
+
+  .navbar .dropdown.show a{
+    background-color: #414347;
+} */
+
+nav a:hover {
+    background-color: 33,37,41;
+  }
+
+.navbar .navbar-nav .nav-link {
+    font-size: 1.1em;
+    position: relative;
+  }
+
+.navbar .navbar-nav .nav-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: plum;
+    color: transparent;
+    width: 0%;
+    content: '.';
+    height: 3px;
+  }
+.navbar .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
+
+/* Hover effect on dropdown menu for desktop view */
+  @media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+.dropdown-item{
+    font-family: 'Guardian Text Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
