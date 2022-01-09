@@ -2,7 +2,6 @@ body{
     background-color: white;
 }
 
-
 .login{
     color: gray;
     float: right;
@@ -19,9 +18,9 @@ body{
 
 .borderUnderNavUnder{
     background-color: #212529;
-    height: 200px;  
+    height: 200px;
+    z-index: 0;
 }
-
 
 .fontSize{
     font-family: 'Guardian Text Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
@@ -66,14 +65,6 @@ body{
     margin-right: 10px;
   }
 
-  /* .navbar .dropdown-menu{
-      background-color: #414347;
-  }
-
-  .navbar .dropdown.show a{
-    background-color: #414347;
-} */
-
 nav a:hover {
     background-color: 33,37,41;
   }
@@ -114,3 +105,75 @@ nav a:hover {
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0;}
 }
+
+main{
+  padding: 14px;
+}
+
+
+
+main p{
+  text-align: start;
+}
+
+.container1{
+  margin: 30px;
+  width: 200px;
+  text-align: start;
+  padding: 2px;
+}
+
+.container2{
+  margin: auto;
+  width: 700px;
+  
+  text-align: start;
+  padding: 90px;
+}
+
+.more-articles section{
+  display: inline-block;
+  width: 40%;
+  padding: 20px;
+  text-align: start;
+}
+
+main img{
+width: 100%
+}
+
+.imgClass img{
+  width: 300px;
+  height: 200px;
+}
+
+.articleText{
+  font-size: 19px;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: 'Guardian Egyp',serif;
+}
+
+.hColor{
+  color: white;
+  border-top: 5px solid plum;
+}
+
+footerTwo nav a{
+  color: #777;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+footerTwo nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+footerTwo nav ul li{
+  display: inline-block;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
